@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+:root{
+
+  --ff-for-all: Poppins, sans-serif;
+}
+
+html,body{
+  margin: 0;
+  font-family: var(--ff-for-all);
+}
+*{
+  box-sizing: border-box;
+}
+
+.navBar{
+
+  display: flex;
+  padding: 1rem 2rem;
+  box-shadow: 0px 2.98256px 7.4564px rgba(0, 0, 0, 0.1);
+}
+
+.hero{
+  
+  display: flex;
+  flex-direction: column;
+  
+}
+ section{
+
+  padding: 2rem;
+ }
+.gray{
+  color: #918E9B;
+ 
+ }
+ .bold{
+   font-weight: bold;
+ }
+
+.image-container{
+  align-self: center ;
+  padding: 1rem 3rem ;
+}
+.textContentArea h1{
+  
+  font-size: 2.2rem;
+  line-height: 40px;
+}
+.textContentArea p{
+  margin: 0;
+  text-align: justify;
+  
+}
+.hero img{
+  width: 100%;
+ 
+}
+
+.cardSection{
+  display: flex;
+  gap: 2rem;
+  flex-wrap: nowrap;
+  
+  
+  /* height: 467px; */
+
+  
+  /* padding: 1rem 2rem;
+  gap: 3rem; */
+}
+
+.card{
+  display: flex;
+  flex-direction: column; 
+   /* width: 264px;   */
+  position: relative;
+    width: 100%;
+   border-radius: 12px;
+   min-width: 250px;
+   max-width: 270px ;
+   max-height: 510px;
+   box-shadow: 0px 2.98256px 7.4564px rgba(0, 0, 0, 0.1);
+  
+}
+.card--badge {
+  position: absolute;
+  top: 6px;
+  left: 6px;
+  background-color: white;
+  padding: 5px 7px;
+  border-radius: 2px;
+  font-weight: bold;
+}
+.card > img{
+  border-radius: 12px;
+  width: 100%;
+ height: 68%;
+  /* height: 353px; */
+}
+.rating-location{
+  margin-top: 5px;
+  display: flex;
+  gap:2px;
+  align-items: center;
+}
+.card-title{
+  overflow: hidden;
+    text-overflow: ellipsis;
+ 
+}
+.star{
+  height: 13px;
+}
+.pricetag{
+  
+  margin-top: auto;
+}
